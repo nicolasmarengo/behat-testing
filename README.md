@@ -49,3 +49,8 @@ installation of behat
 follow http://docs.behat.org/quick_intro.html#installation <br />
 composer.json is provided in this repo and will install all the necessary drivers. <br />
 you dont need to run "behat --init" as the features and bootrap folders are provided in this repo. <br />
+
+installation of sahi
+====================
+Download and install the .jar file from here http://sourceforge.net/projects/sahi/files/sahi-v44/
+Sahi's homepage is http://sahi.co.in/
