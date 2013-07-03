@@ -1,0 +1,7 @@
+bin/
+output/
+vendor
+composer.lock
+composer.phar
+behat.yml
+.DS_Store
