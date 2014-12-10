@@ -1,14 +1,14 @@
-@amazon
+@amazon 
 Feature: Test Page
 
-@simplesearch
+@simplesearch @javascript
 Scenario: Simple search on amazon
         Given I am on "/"
 	When I fill in "field-keywords" with "Business Development Driven"
 	And I press "Go"
 	Then I should see "Test Driven Development" 
 	
-@manysearches
+@manysearches @javascript
 Scenario Outline: Search on amazon
 	Given I am on "/"
 	And I follow "<link1>"
